@@ -1,44 +1,133 @@
+#upheader{
+	height: 66px;
+	width: 100%;
+	position: fixed;
+	background: rgba(64, 64, 64, 0.35);
+	z-index: 999;
+}
+
 #header{
-	height: 400px;
-	background-image: url("wooden.jpg");
+	height: 500px;
+	background-image: url("backgroubd_metal_wheel_concept.png");
 	background-repeat: no-repeat;
 	background-size: cover;
+	margin: 0;
 	color: white;
 	padding: 1em;
 }
-#area_middle{
-	height: 1200px;
+
+/*#area_middle_1_left{
+	width: 25%;
+	float: left;
+	height: 1000px;
+	background-color: purple;
 }
+
+#area_middle_1_right{
+	width: 25%;
+	float: right;
+	height: 1000px;
+	background-color: purple;
+}*/
+
+#area_middle_1_middle{
+	height: 900px;
+	/*margin-left: 270px;*/
+}
+
 #description_picture{
-	position:absolute;
-	margin-left: 70px;
-	margin-top: -100px;
+	position: relative;
+	left: -270px;
+	top: 100px;
 	padding: 0;
 	height: 400px;
-	z-index: 999;
+	z-index: 2;
 }
+
 #description_of_HorngChi{
 	border:8px #808080 groove;
 	width: 740px;
 	height: 540px;
-	margin-top: 150px;
-	margin-left: 550px;
-	margin-right: 200px;
+	position: relative;
+	top: -150px;
+	left: 270px;
 	padding: 1.5em;
 }
+
+#area_middle_2{
+	height: 650px;
+	
+}
+
+#area_middle_2_1{
+	height: 600px;
+	background: rgba(0, 0, 0, 0.77);
+}
+
+/*#intro_film{
+	margin-left: 0px;
+}*/
+/*#area_middle_3_outside1{
+	float: left;
+	width: 20%;
+	height: 400px;
+}*/
+.area_middle_3_left{
+	float: left;
+	width: 22.5%;
+	height: 550px;
+	text-align: center;
+}
+.area_middle_3_middle{
+	float: left;
+	width: 10%;
+	height: 550px;
+}
+.area_middle_3_right{
+	float: left;
+	width: 22.5%;
+	height: 550px;
+	text-align: center;
+}
+li{
+	text-align:left;
+	font-weight:bold;
+}
+/*#area_middle_3_outside2{
+	float: right;
+	width: 20%;
+	height: 400px;
+}*/
 #footer{
-	height: 280px;
-	background-image: linear-gradient(#804000, #663300, #4d2600, #331a00);
+	clear:both;
+	height: 450px;
+	background-image: url("background_brick_wall.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*background-image: linear-gradient(#804000, #663300, #4d2600, #331a00);*/
 	margin: 0;
-	padding: 10;
 	color: white;
 	font-family: Microsoft JhengHei, DFKai-sb;
 }
+
+#contact{
+	margin-left: 40px;
+}
+
+#fb_social{ 
+	position: relative;
+	float: right;           
+    right: 50px;   
+    bottom: 0;   
+    border: none;   
+}
+
 body{
-	background-image: url("background_brown_stripes.jpg");
+	background-image: url("background_gray_wood_surface.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	font-family:Microsoft JhengHei;
 	margin: 0;
 	padding: 0;
+	font-family: Microsoft JhengHei, DFKai-sb;
 }
+
