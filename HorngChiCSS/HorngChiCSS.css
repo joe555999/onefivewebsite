@@ -1,0 +1,134 @@
+#upheader{
+	height: 66px;
+	width: 100%;
+	position: fixed;
+	background: rgba(64, 64, 64, 0.35);
+	z-index: 999;
+}
+
+#header{
+	height: 500px;
+	background-image: url("backgroubd_metal_wheel_concept.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	color: white;
+	padding: 1em;
+}
+
+#area_middle_1_middle{
+	height: 900px;
+}
+
+#description_picture{
+	position: relative;
+	left: -270px;
+	top: 100px;
+	padding: 0;
+	height: 400px;
+	z-index: 2;
+}
+
+#description_of_HorngChi{
+	border: 8px #808080 groove;
+	width: 740px;
+	height: 540px;
+	position: relative;
+	top: -150px;
+	left: 270px;
+	padding: 1.5em;
+}
+
+#area_middle_2{
+	height: 650px;
+	
+}
+
+#area_middle_2_1{
+	height: 600px;
+	background: rgba(0, 0, 0, 0.77);
+}
+
+#area_middle_3_outside_left{
+	float: left;
+	width: 12%;
+	height: 530px;
+}
+
+#area_middle_3_inside_left{
+	float: left;
+	width: 30%;
+	height: 530px;
+	text-align: center;
+}
+
+#area_middle_3_middle{
+	float: left;
+	width: 16%;
+	height: 530px;
+}
+
+#area_middle_3_inside_right{
+	float: left;
+	width: 30%;
+	height: 530px;
+	text-align: center;
+}
+
+#area_middle_3_outside_right{
+	float: left;
+	width: 12%;
+	height: 530px;
+}
+
+ul{
+	display: inline-block;
+}
+
+li{
+	text-align:left;
+	font-weight:bold;
+}
+
+/*#tabulation_bonus{
+
+}*/
+
+#tabulation_staffs{
+	position: relative;
+	right: 7%;
+}
+
+#footer{
+	clear:both;
+	height: 470px;
+	/*background-image: linear-gradient(#804000, #663300, #4d2600, #331a00);*/
+	background-image: url("background_brick_wall.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	color: white;
+	font-family: Microsoft JhengHei, DFKai-sb;
+}
+
+#contact{
+	margin-left: 40px;
+}
+
+#fb_social{ 
+	position: relative;
+	float: right;           
+    right: 50px;   
+    bottom: 0;   
+    border: none;   
+}
+
+body{
+	background-image: url("background_gray_wood_surface.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	font-family: Microsoft JhengHei, DFKai-sb;
+}
+
