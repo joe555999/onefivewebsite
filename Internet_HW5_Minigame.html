@@ -5,23 +5,12 @@
     <meta charset="UTF-8">
     <title>小遊戲</title>
     <link href="style.css" rel="stylesheet" />
-    <link type="text/css" href="styles.css" rel="stylesheet" media="screen">
-
-    <!--讓canvas布滿-->
-        <script type="text/javascript">
-        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-        </script><script src="https://ssl.google-analytics.com/ga.js" type="text/javascript"></script>
-        <script type="text/javascript">
-        try {
-        var pageTracker = _gat._getTracker("UA-15240703-1");
-        pageTracker._trackPageview();
-        } catch(err) {}</script>
+    <link type="text/css" href="Minigame_Style.css" rel="stylesheet" media="screen">
 </head>
 
 <body>
     <canvas></canvas>
-    <div id="help">
+    <div id="help_1">
         <h1>請按鍵盤上下左右鍵控制小車移動，並避免碰撞。</h1>
     </div>
     <div id="score_div">
@@ -73,14 +62,14 @@
         </div>
         <div id="restart_div">
             <button id="restart">
-                重新開始<br>
-                <small class="small_text">（按下Enter鍵）</small>
+                <h3>重新開始<br></h3>
+                <h4 class="small_text">（按下Enter鍵）</h4>
             </button>
         </div>
     </div>
 
     <script src="jquery.min.js"></script>
-    <script src="script.js"></script>
+    <script src="Minigame_Script.js"></script>
 </body>
 
 </html>
