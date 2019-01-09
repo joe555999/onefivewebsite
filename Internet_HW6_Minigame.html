@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>小遊戲</title>
+    <link href="style.css" rel="stylesheet" />
+    <link type="text/css" href="Minigame_Style.css" rel="stylesheet" media="screen">
+</head>
+
+<body>
+    <canvas></canvas>
+    <div id="help_1">
+        <h1>請按鍵盤上下左右鍵控制小車移動，並避免碰撞。</h1>
+    </div>
+    <div id="score_div">
+       <h2>成績: <span id="score">0</span></h2>
+    </div>
+    <div id="container">
+        <div id="line_1" class="line"></div>
+        <div id="line_2" class="line"></div>
+        <div id="line_3" class="line"></div>
+        <div id="car" class="car">
+            <div class="f_glass"></div>
+            <div class="b_glass"></div>
+            <div class="f_light_l"></div>
+            <div class="f_light_r"></div>
+            <div class="f_tyre_l"></div>
+            <div class="f_tyre_r"></div>
+            <div class="b_tyre_l"></div>
+            <div class="b_tyre_r"></div>
+        </div>
+        <div id="car_1" class="car">
+            <div class="f_glass"></div>
+            <div class="b_glass"></div>
+            <div class="f_light_l"></div>
+            <div class="f_light_r"></div>
+            <div class="f_tyre_l"></div>
+            <div class="f_tyre_r"></div>
+            <div class="b_tyre_l"></div>
+            <div class="b_tyre_r"></div>
+        </div>
+        <div id="car_2" class="car">
+            <div class="f_glass"></div>
+            <div class="b_glass"></div>
+            <div class="f_light_l"></div>
+            <div class="f_light_r"></div>
+            <div class="f_tyre_l"></div>
+            <div class="f_tyre_r"></div>
+            <div class="b_tyre_l"></div>
+            <div class="b_tyre_r"></div>
+        </div>
+        <div id="car_3" class="car">
+            <div class="f_glass"></div>
+            <div class="b_glass"></div>
+            <div class="f_light_l"></div>
+            <div class="f_light_r"></div>
+            <div class="f_tyre_l"></div>
+            <div class="f_tyre_r"></div>
+            <div class="b_tyre_l"></div>
+            <div class="b_tyre_r"></div>
+        </div>
+        <div id="restart_div">
+            <button id="restart">
+                <h3>重新開始<br></h3>
+                <h4 class="small_text">（按下Enter鍵）</h4>
+            </button>
+        </div>
+    </div>
+
+    <script src="jquery.min.js"></script>
+    <script src="Minigame_Script.js"></script>
+</body>
+
+</html>
